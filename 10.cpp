@@ -6,6 +6,4 @@ int main() {
 	cout << teste << endl;
 	cout << teste[0] << endl << teste.at(0);
 
-
-
 }
