@@ -1,13 +1,18 @@
 #include <iostream>
-#include <string>
 using namespace std;
-
 
 int main()
 {
-    string matriz[5] = {"smogon", "capa", "x1 freefas", "smogon", "bungas"};
-    
-    for (int i = 0; i < 5; i++) {
-        cout << matriz[i] << endl;
-    }
+    char matriz[2][2][2] = //uma matriz de 3 dimenções
+    { // dimenção 1
+        { // dimenção 2
+            {'A', 'B'}, // dimenção 3
+            {'C', 'D'}
+        },
+        {
+            {'E', 'F'},
+            {'G', 'H'}
+        }
+    };
 }
+
