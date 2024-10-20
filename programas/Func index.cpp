@@ -13,11 +13,11 @@ int index(int num[], int len, int valor) {
 
 int main()
 {
-    int matriz[] = {2, 3, 4, 5, 9, 1, 5, 3};
+    int array[] = {2, 3, 4, 5, 9, 1, 5, 3};
     int tamanho = 0;
-    for (int c : matriz) {
+    for (int c : array) {
         tamanho++;
     }
     
-    cout << index(matriz, tamanho, 9); // resultado final
+    cout << index(array, tamanho, 9); // resultado final
 }
