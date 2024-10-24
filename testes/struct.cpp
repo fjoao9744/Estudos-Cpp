@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+// estrutura em multiplas variaveis
 struct {
     int num = 2; 
     //valores da estrutura
