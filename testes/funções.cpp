@@ -6,7 +6,6 @@ bool is_even(int num) {
     
 }
 
-
 int main()
 {
     cout << is_even(11);    
