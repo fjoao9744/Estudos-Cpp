@@ -1,19 +1,12 @@
-include<iostream>
 using namespace std;
+#include <iostream>
 
-int index(int num[], int valor) {
-    int posi = 0;
-    for (int ver : []) {
-    posi++;
-    if (ver == valor) {
+bool is_even(int num) {
+    return num % 2 == 0 ? true : false;
     
-    return posi;
-    }
-    }
-};
+}
 
 int main()
 {
-Index()
-
+    cout << is_even(11);    
 }
