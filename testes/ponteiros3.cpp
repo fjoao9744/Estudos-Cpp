@@ -9,7 +9,7 @@ int main()
     cout << ptr << endl;
     cout << n1 << endl;
     
-    *ptr = 12; // alterando uma variavel pleo ponteiro dela
+    *ptr = 12; // alterando uma variavel pelo ponteiro dela
     
     cout << ptr << endl;
     cout << n1;
