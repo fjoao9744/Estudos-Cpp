@@ -1,6 +1,11 @@
 {
     "C_Cpp.default.compilerPath": "C:\\msys64\\ucrt64\\bin\\g++.exe",
     "files.associations": {
-        "iostream": "cpp"
+        "*.html": "html",
+        "*.css": "css",
+        "*.bin": "code-text-binary",
+        "*.cpp": "cpp",
+        "iostream": "cpp",
+        "thread": "cpp"
     }
 }
