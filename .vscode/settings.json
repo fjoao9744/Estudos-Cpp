@@ -6,6 +6,7 @@
         "*.bin": "code-text-binary",
         "*.cpp": "cpp",
         "iostream": "cpp",
-        "thread": "cpp"
+        "thread": "cpp",
+        "any": "cpp"
     }
 }
