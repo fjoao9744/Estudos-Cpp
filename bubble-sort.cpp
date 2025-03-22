@@ -1,41 +1,41 @@
-// incompleto
-
 #include <iostream>
 #include <vector>
 using namespace std;
 
-void bubble_sort(vector<int>& lista) {
-    int i = 0;
-    bool trocou = true;
+void print_array(vector<int>& arr) {
+    for (int i : arr) {
+        cout << i << " ";
+    }; cout << endl;
+
+};
+
+void bubble_sort(vector<int>& arr) {
+    int n = arr.size();
     
-    do  {
-        if (lista[i] > lista[i + 1]) {
-            swap(lista[i], lista[i + 1]);
-            
-        } else {
-            i += 1;
+    for (int i = 0; i < n - 1; i++) {
+        bool trocou = false;
+        
+        for (int j = 0; j < n - i - 1; j++) {
+            if (arr[j] > arr[j + 1]) {
+                swap(arr[j], arr[j + 1]);
+                trocou = true;
+            }
         }
-        if (i == lista.size() - 1) {
+        
+        // Se nenhuma troca foi feita, o array já está ordenado
+        if (!trocou) {
             break;
         }
-    
-    } while (true);
-    
-};
+    }
+}
 
 int main() {
     vector<int> lista = {1, 3, 4, 1, -1, 6, 8, 13, 32, 64, 213, 42, 2, 3, 87, 98, -4, -100};
     
-    for (int i : lista) {
-        cout << i << " ";
-    };
+    print_array(lista);
     
     bubble_sort(lista);
     
-    cout << endl;
-    
-    for (int i : lista) {
-        cout << i << " ";
-    };
-    
+    print_array(lista);
+
 }
